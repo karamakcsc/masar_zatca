@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include masar_zatca *.css
+recursive-include masar_zatca *.csv
+recursive-include masar_zatca *.html
+recursive-include masar_zatca *.ico
+recursive-include masar_zatca *.js
+recursive-include masar_zatca *.json
+recursive-include masar_zatca *.md
+recursive-include masar_zatca *.png
+recursive-include masar_zatca *.py
+recursive-include masar_zatca *.svg
+recursive-include masar_zatca *.txt
+recursive-exclude masar_zatca *.pyc
