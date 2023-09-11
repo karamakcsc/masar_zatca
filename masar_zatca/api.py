@@ -23,13 +23,13 @@ def send_to_zatca(name,posting_date,posting_time,currency,item_code,item_name,ne
                 "item_code": item_code,
                 "InvoiceLine_Item_Name": item_name,
                 "InvoiceLine_Price_PriceAmount": net_amount,
-                "InvoiceLine_InvoicedQuantity": qty,
+                "InvoiceLine_InvoicedQuantity": qty
             }
         ],
         "Invoice_ID": name,
         "Invoice_IssueDate": posting_date,
         "Invoice_IssueTime": posting_time,
-        "Invoice_DocumentCurrencyCode": currency,
+        "Invoice_DocumentCurrencyCode": currency
 
     }
 
