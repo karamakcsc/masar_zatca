@@ -109,7 +109,9 @@ app_license = "MIT"
 #		"on_trash": "method"
 #	}
 # }
-
+doctype_js = {
+   "Sales Invoice" : "custom/sales_invoice/sales_invoice.js"
+}
 # Scheduled Tasks
 # ---------------
 
